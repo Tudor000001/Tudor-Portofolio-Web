@@ -32,31 +32,31 @@
     <form id="contactF">
         <div id="nameF">
             <p class="textF">Name (required)</p>
-            <input class="name" placeholder="First Name" />
-            <input class="name" placeholder="Last Name" />
+            <input class="name" placeholder="First Name" required/>
+            <input class="name" placeholder="Last Name" required/>
         </div>
         <br />
         <div id="emailF">
             <p class="textF">Email (required)</p>
-            <input class="name" id="email" placeholder="Email Address"/>
+            <input class="name" id="email" type="email" placeholder="Email Address" required/>
         </div>
         <br />
         <div id="iding">
             <p class="textF">Which are you? (required)</p>
             <div id="radiosI">
-                <input type="radio" name="iding"/>Student
+                <input type="radio" name="iding" required/>Student
                 <br />
-                <input type="radio" name="iding"/>Recruiter
+                <input type="radio" name="iding" required/>Recruiter
                 <br />
-                <input type="radio" name="iding"/>Company
+                <input type="radio" name="iding" required/>Company
                 <br />
-                <input type="radio" name="iding"/>Other
+                <input type="radio" name="iding" required/>Other
             </div>
         </div>
         <br />
         <div id="message">
             <p>Message (required)</p>
-            <textarea id="messageF" class="name"></textarea>
+            <textarea id="messageF" class="name" required></textarea>
         </div>
         <br />
         <button id="send">Send</button>

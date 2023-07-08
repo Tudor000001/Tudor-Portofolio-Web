@@ -166,10 +166,7 @@ form {
 #messageF {
   width: 500px;
   height: 100px;
-  padding-left: 0;
-  padding-top: 0;
-  padding-bottom: 0.4em;
-  padding-right: 0.4em;
+  word-break: break-word;
 }
 
 #send {
