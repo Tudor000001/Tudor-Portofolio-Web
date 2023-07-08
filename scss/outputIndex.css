@@ -101,4 +101,90 @@ main {
   border-radius: 10px;
 }
 
+#story {
+  position: relative;
+  top: 200px;
+  font-size: 30px;
+  color: #3C887E;
+}
+
+#textC {
+  color: #3C887E;
+  margin: 50px;
+  width: 500px;
+}
+
+#conMe {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#messageOne {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  left: 590px;
+  bottom: 300px;
+  color: #3C887E;
+}
+
+.name {
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #E0F2E9;
+  border-radius: 15px;
+  text-indent: 10px;
+  outline: none;
+  color: #3C887E;
+}
+
+.name:hover {
+  border: 1px solid #3C887E;
+}
+
+.name:focus {
+  border: 2px solid #3C887E;
+}
+
+#email {
+  width: 500px;
+}
+
+.textF {
+  font-weight: 700;
+}
+
+::placeholder {
+  color: #3C887E;
+}
+
+#messageF {
+  width: 500px;
+  height: 100px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0.4em;
+  padding-right: 0.4em;
+}
+
+#send {
+  border: 0px solid red;
+  color: #3C887E;
+  background-color: white;
+  width: 150px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#send:hover {
+  background-color: #3C887E;
+  color: white;
+}
+
 /*# sourceMappingURL=outputIndex.css.map */

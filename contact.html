@@ -14,6 +14,52 @@
     <meta name="HandheldFriendly" content="true">
 </head>
 <body>
-
+    <nav>
+        <a href="index.html" id="logo">TL</a>
+        <a href="contact.html" id="contact" class="navButton">Contact </a>
+        <a href="media.html" id="media" class="navButton">Media </a>
+        <a href="projects.html" id="projects" class="navButton">Projects </a>
+        <a href="resume.html" id="resume" class="navButton">Resume </a>
+        <a href="https://www.instagram.com/tudor000001/"><img id="insta" src="images/insta.svg" title="insta" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100068981624754"><img id="facebook" src="images/facebook.svg" title="facebook" /></a>
+    </nav>
+    <div id="textC">
+        <p id="conMe">Contact me!</p>
+        <p id="messageOne">Have any questions? Fill out the form and I’ll get you a response soon!</p>
+        <p>Feel free to ask / inquire about anything (school, basketball, internships, music, etc). Hoping to be a resource and be of help in your journey in any way possible.</p>
+        <p>lupsetudor@gmail.com</p>
+    </div>
+    <form id="contactF">
+        <div id="nameF">
+            <p class="textF">Name (required)</p>
+            <input class="name" placeholder="First Name" />
+            <input class="name" placeholder="Last Name" />
+        </div>
+        <br />
+        <div id="emailF">
+            <p class="textF">Email (required)</p>
+            <input class="name" id="email" placeholder="Email Address"/>
+        </div>
+        <br />
+        <div id="iding">
+            <p class="textF">Which are you? (required)</p>
+            <div id="radiosI">
+                <input type="radio" name="iding"/>Student
+                <br />
+                <input type="radio" name="iding"/>Recruiter
+                <br />
+                <input type="radio" name="iding"/>Company
+                <br />
+                <input type="radio" name="iding"/>Other
+            </div>
+        </div>
+        <br />
+        <div id="message">
+            <p>Message (required)</p>
+            <textarea id="messageF" class="name"></textarea>
+        </div>
+        <br />
+        <button id="send">Send</button>
+    </form>
 </body>
 </html>
