@@ -66,7 +66,7 @@ nav {
 }
 
 main {
-  background-color: red;
+  position: relative;
   height: 550px;
   width: 1000px;
   margin: 100px;
@@ -74,16 +74,21 @@ main {
 
 #eu {
   position: relative;
+  display: inline;
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  display: inline;
 }
 
 #bio {
-  position: relative;
+  position: absolute;
   display: inline;
   font-size: 40px;
+  color: #3C887E;
+  margin-left: 40px;
+  margin-top: 0px;
+  font-weight: 700;
+  margin-right: 40px;
 }
 
 /*# sourceMappingURL=outputIndex.css.map */
