@@ -7,6 +7,7 @@ body {
 }
 
 nav {
+  display: block;
   width: 100%;
   height: 100px;
   background-color: #3C887E;
@@ -182,6 +183,65 @@ form {
 #send:hover {
   background-color: #3C887E;
   color: white;
+}
+
+#titleM {
+  margin: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: #3C887E;
+}
+
+.imaginiM {
+  margin: 50px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#titleP {
+  color: #3C887E;
+  margin: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.projTitle {
+  color: #3C887E;
+  font-weight: 600;
+}
+
+.gitRepo {
+  position: relative;
+  color: #3C887E;
+  margin: 0px;
+}
+
+.gitImg {
+  margin-top: 10px;
+  width: 500px;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+.proj {
+  line-height: 20px;
+  background-color: white;
+  width: 510px;
+  border-radius: 10px;
+  margin: 50px;
+  border: 15px solid white;
+}
+
+#descPT {
+  margin-top: 30px;
+  font-weight: 600;
+  color: #3C887E;
+}
+
+#descPC {
+  color: #3C887E;
 }
 
 /*# sourceMappingURL=outputIndex.css.map */
